@@ -84,3 +84,21 @@ a {
   text-align: center;
   margin-bottom: 50px;
 }
+
+.inner-top h1 {
+  font-size: 2.5em;
+}
+
+main {
+  padding: 25px;
+  background-color: black;
+}
+
+.middle {
+  background-color: black;
+  width: 100%;
+  height: fit-content;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
