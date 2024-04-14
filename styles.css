@@ -17,9 +17,10 @@ html {
 }
 
 body {
-  font-family: "Verdana", sans-serif;
+  font-family: "Poppins", sans-serif;
   width: 100%;
   min-height: 100vh;
+  background-color: black;
   padding: 0;
   margin: 0;
   color: #fff;
@@ -67,8 +68,38 @@ h1, h2, p {
   margin: 0;
 }
 
+h2 {
+  font-size: 1.3em;
+}
+
+p {
+  font-weight: 500;
+  font-size: 0.9em;
+}
+
 a {
   text-decoration: none;
+}
+
+section {
+  padding: 20px 0;
+}
+
+table {
+  border-collapse:collapse;
+  border:1px solid #FF0000;
+  margin-top: 15px;
+}
+
+
+table td , table th {
+  border:1px solid #FF0000;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.divider {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
 }
 
 .top {
@@ -90,15 +121,38 @@ a {
 }
 
 main {
-  padding: 25px;
-  background-color: black;
+  padding: 25px 50px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* gap: 35px; */
 }
 
-.middle {
-  background-color: black;
+.addtional-section, .vim-motions-cheatsheet {
   width: 100%;
   height: fit-content;
   color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 15px;
+}
+
+.section-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+
+.indent {
+  margin-left: 35px;
+}
+
+.vim-motions-cheatsheet {
+  text-align: center;
+}
+
+.vim-motions-cheatsheet p {
+  max-width: 80%;
+}
