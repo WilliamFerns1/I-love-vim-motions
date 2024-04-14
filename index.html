@@ -5,25 +5,38 @@
     <meta name="description" content="A simple web page for testing purposes">
     <meta name="author" content="William Ferns">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="stylesheet" content="styles.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Vim Motions Tribute Page</title>
   </head>
   <body>
-    <header>
-      <h1>Vim Motions Tribute Page</h1>
-      <nav>
-        <ul>
-          <li>Vim Motions</li>
-          <li>Github</li>
-          <li>Portfolio</li>
-        </ul>
-      </nav>
-    </header>
-    <main>
+    <div class="hero">
+      <header>
+        <h1>Vim Motions Tribute Page</h1>
+        <nav>
+          <ul>
+            <li>
+              <a href="#vim-motions">Vim Motions</a>
+            </li>
+            <li>
+              <a href="https://github.com/WilliamFerns" target="_blank">Github</a>
+            </li>
+            <li>
+              <a href="https://williamferns.com" target="_blank">Portfolio</a>
+            </li>
+            <li>
+              <a href="mailto:business@williamferns.com" target="_blank">Hire me</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
       <div class="top">
-        <h1>I ❤️ Vim Motions</h1>
-        <p>Vim Motions is the best decision I made, it makes me so much more productive.</p>
+        <div class="inner-top">
+          <h1>I ❤️ Vim Motions</h1>
+          <p>Vim Motions are the best, it makes me so much more productive.</p>
+        </div>
       </div>
+    </div>
+    <main>
       <div clas="middle">
         <div class="why-vim-motions">
           <h2>Why I love Vim Motions?</h2>
@@ -46,7 +59,7 @@
           <p>This is a certification project I get to do, for the course I am following. The project, is to make a tribute page. I started to think: "What would everyone else do?", and did the exact opposite. I spent like 10 to 20 minutes to just think of a unique idea, something nobody else would do.</p>
         </div>
       </div>
-      <div class="vim-motions-cheatsheet">
+      <div id="vim-motions" class="vim-motions-cheatsheet">
         <h2>Vim Motions Cheatsheet: </h2>
         <p>Honestly, if you do not use Vim, you are an idiot. It will make you move 1.5 - 3x faster, permanently. It is an upfront investment, but it is definitely worth it.</p>
         <table>
@@ -111,7 +124,15 @@
             <td>Normal, Visual</td>
           </tr>
         </table>
+        <p>Honestly, you will use this motions all the time, so learn them first, get comfortable with them. Next, learn some extra motions, by looking at <a href="https://vim.rtorr.com" target="_blank">this cheatsheet</a></p>
       </div>
     </main>
+    <footer>
+      <<address>
+        <a href="https://williamferns.com" target="_blank">William's Portfolio</a>
+        MIT License
+        2024
+      </address>
+    </footer>
   </body>
 </html>

@@ -1,0 +1,86 @@
+@media(prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+  scrollbar-width: thin;
+  scrollbar-color: red black;
+}
+
+body {
+  font-family: "Verdana", sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+.hero {
+  background-image: url("anime-background.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 32px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  min-height: 10vh;
+}
+
+header > h1 {
+  font-size:1em;
+}
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items; center;
+  gap: 20px;
+}
+
+nav > ul > li {
+  padding: 0;
+  list-style-type: none;
+}
+
+nav > ul > li > a {
+  color: #fff;
+  font-size: 0.8em;
+}
+
+h1, h2, p {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top {
+  height: 90vh;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+
+.inner-top {
+  text-align: center;
+  margin-bottom: 50px;
+}
