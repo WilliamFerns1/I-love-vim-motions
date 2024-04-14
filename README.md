@@ -4,6 +4,7 @@
 ![HTML&CSS](https://img.shields.io/badge/HTML-CSS-blue)
 [![freeCodeCamp](https://img.shields.io/badge/freeCodeCamp-Responsive_Web_Design_Course-red)](https://freecodecamp.com/learn)
 
+![image](https://github.com/WilliamFerns1/I-love-vim-motions/assets/141557971/77cf7163-1ac4-41cf-841d-451f44c7998d)
 
 ![love vim](https://github.com/WilliamFerns1/I-love-vim-motions/assets/141557971/acc550c5-d6a7-4284-abe3-dc50b72aefeb)
 
