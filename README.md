@@ -31,8 +31,16 @@ This project is under the MIT license. Feel free to do whatever you wnat with it
 ## Conclusion:
 If you are someone that are looking to hire a developer, whether it is freelancing work, an internship, or a full time position, feel free to reach out to me with one of the following channels: 
 
-<a target="_blank" href="mailto:business@williamferns.com">Email</a>
-<a target="_blank" href="https://discordapp.com/users/1210562328266014881">Discord</a>
-<a target="_blank" href="https://twitter.com/willfernsdev">Twitter</a>
+<ul>
+  <li>
+    <a target="_blank" href="mailto:business@williamferns.com">Email: business@williamferns.com</a>
+  </li>
+  <li>
+    <a target="_blank" href="https://twitter.com/willfernsdev">Twitter: willfernsdev</a>  
+  </li>
+  <li>
+    <p>Discord: williamferns</p>
+  </li>
+</ul>
 
 ---
