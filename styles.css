@@ -156,3 +156,26 @@ main {
 .vim-motions-cheatsheet p {
   max-width: 80%;
 }
+
+footer {
+  width: 100%;
+  min-height: 10vh;
+  border-top: 1px solid #fff;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer, footer a {
+  color: #fff;
+}
+
+footer a {
+  text-decoration: underline;
+}
+
+address {
+  text-align: center;
+}
+
