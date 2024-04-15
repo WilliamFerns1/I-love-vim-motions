@@ -26,6 +26,11 @@ This is a certification project I get to do, for the course I am following. The 
 ## Contributions:
 If you really like the idea of this project, and you see something you can improve, feel free to **fork** this repo, make your changes, and submit a pull request. If you love Vim motions alot, welcome!
 
+## What I learnt from making this project:
+1. HTML
+2. CSS
+3. Responsive Design
+
 ## License:
 This project is under the MIT license. Feel free to do whatever you wnat with it, I really don't care.
 
