@@ -192,4 +192,15 @@ address {
   .inner-top p {
     font-size: 0.8em;
   }
+
+  h2 {
+    font-size: 0.9em;
+  }
+
+  nav li {
+    font-size: 1em;
+  }
+  p, li {
+    font-size: 0.7em;
+  }
 }
