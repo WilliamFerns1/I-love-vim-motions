@@ -1,6 +1,6 @@
 # I ❤️ Vim Motions!
 
-[![Project Type](https://img.shields.io/badge/Project_Type:-Tribute_Page-purple)](https://www.python.org/downloads/)
+![Project Type](https://img.shields.io/badge/Project_Type:-Tribute_Page-purple)
 ![HTML&CSS](https://img.shields.io/badge/HTML-CSS-blue)
 [![freeCodeCamp](https://img.shields.io/badge/freeCodeCamp-Responsive_Web_Design_Course-red)](https://freecodecamp.com/learn)
 
